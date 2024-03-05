@@ -136,9 +136,9 @@ body, html {
   }
   
   .button {
-    font-size: 40px; /* Decrease button font size */
-    width: 120px; /* Decrease button width */
-    height: 120px; /* Decrease button height */
+    font-size: 30px; /* Decrease button font size further */
+    width: 100px; /* Decrease button width */
+    height: 100px; /* Decrease button height */
     margin: 5px; /* Decrease button margin */
   }
 }
