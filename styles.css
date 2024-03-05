@@ -130,17 +130,19 @@ body, html {
   }
 }
 @media (max-width: 767px) {
+  #nameButtons {
+    flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines */
+    justify-content: center;
+  }
+  
   .button {
-    font-size: 40px; /* Уменьшаем размер шрифта для мобильных устройств */
-    width: 100px; /* Уменьшаем ширину кнопок для мобильных устройств */
-    height: 100px; /* Уменьшаем высоту кнопок для мобильных устройств */
+    font-size: 40px; /* Decrease button font size */
+    width: 120px; /* Decrease button width */
+    height: 120px; /* Decrease button height */
+    margin: 5px; /* Decrease button margin */
   }
 }
 
-/* Стили для планшетов и десктопов */
+/* Styles for tablets and desktops */
 @media (min-width: 768px) {
-  .button {
-    font-size: 60px; /* Сохраняем размер шрифта для планшетов и десктопов */
-    width: 150px; /* Сохраняем ширину кнопок для планшетов и десктопов */
-    height: 150px; /* Сохраняем высоту кнопок для планшетов и десктопов */
-  }
+  /* Your CSS for tablets and desktops */
