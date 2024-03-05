@@ -129,20 +129,3 @@ body, html {
     transform: translateX(-100%);
   }
 }
-@media (max-width: 480px) {
-    article {
-        float: none;
-        width: auto;
-    }
-
-    aside {
-        position: static;
-        float: none;
-        background: pink;
-        margin-left: 5px;
-    }
-}
-
-/* Styles for tablets and desktops */
-@media (min-width: 768px) {
-  /* Your CSS for tablets and desktops */
