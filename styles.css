@@ -129,23 +129,37 @@ body, html {
     transform: translateX(-100%);
   }
 }
-@media (min-width: 600px) and (max-width: 700px) {
-  /* Styles for screens with width between 600px and 700px */
+@media (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
   #nameButtons {
     flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines */
     justify-content: center;
   }
   
   .button {
-    font-size: 30px; /* Decrease button font size */
-    width: 100px; /* Decrease button width */
-    height: 100px; /* Decrease button height */
+    font-size: 40px; /* Decrease button font size */
+    width: calc(50% - 10px); /* Adjust button width for landscape mode */
+    height: 120px; /* Keep button height */
     margin: 5px; /* Decrease button margin */
   }
 }
 
-@media (min-width: 400px) and (max-width: 599.99px) {
-  /* Styles for screens with width between 400px and 599.99px */
+/* Styles for screens with width between 400px and 599.99px (landscape) */
+@media (min-width: 400px) and (max-width: 599.99px) and (orientation: landscape) {
+  #nameButtons {
+    flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines */
+    justify-content: center;
+  }
+  
+  .button {
+    font-size: 30px; /* Decrease button font size further */
+    width: calc(50% - 10px); /* Adjust button width for landscape mode */
+    height: 100px; /* Keep button height */
+    margin: 5px; /* Decrease button margin */
+  }
+}
+
+/* Styles for screens with width up to 399.99px (landscape) */
+@media (max-width: 399.99px) and (orientation: landscape) {
   #nameButtons {
     flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines */
     justify-content: center;
@@ -153,23 +167,8 @@ body, html {
   
   .button {
     font-size: 20px; /* Decrease button font size further */
-    width: 80px; /* Decrease button width */
-    height: 80px; /* Decrease button height */
-    margin: 4px; /* Decrease button margin */
-  }
-}
-
-@media (max-width: 399.99px) {
-  /* Styles for screens with width up to 399.99px */
-  #nameButtons {
-    flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines */
-    justify-content: center;
-  }
-  
-  .button {
-    font-size: 10px; /* Decrease button font size further */
-    width: 60px; /* Decrease button width */
-    height: 60px; /* Decrease button height */
-    margin: 3px; /* Decrease button margin */
+    width: calc(50% - 10px); /* Adjust button width for landscape mode */
+    height: 80px; /* Keep button height */
+    margin: 5px; /* Decrease button margin */
   }
 }
