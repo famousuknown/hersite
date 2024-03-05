@@ -129,18 +129,18 @@ body, html {
     transform: translateX(-100%);
   }
 }
-@media (max-width: 767px) {
-  #nameButtons {
-    flex-wrap: wrap; /* Allow buttons to wrap onto multiple lines */
-    justify-content: center;
-  }
-  
-  .button {
-    font-size: 30px; /* Decrease button font size further */
-    width: 100px; /* Decrease button width */
-    height: 100px; /* Decrease button height */
-    margin: 5px; /* Decrease button margin */
-  }
+@media (max-width: 480px) {
+    article {
+        float: none;
+        width: auto;
+    }
+
+    aside {
+        position: static;
+        float: none;
+        background: pink;
+        margin-left: 5px;
+    }
 }
 
 /* Styles for tablets and desktops */
