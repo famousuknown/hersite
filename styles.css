@@ -139,10 +139,10 @@ body, html {
   }
   
   .button {
-    font-size: 20px; /* Decrease button font size */
+    font-size: 2px; /* Decrease button font size */
     width: calc(50% - 20px); /* Adjust button width for landscape mode */
     height: 120px; /* Keep button height */
-    margin: 5px; /* Keep button margin */
+    margin: 1px; /* Keep button margin */
   }
 }
 
@@ -154,10 +154,10 @@ body, html {
   }
   
   .button {
-    font-size: 10px; /* Decrease button font size further */
+    font-size: 1px; /* Decrease button font size further */
     width: calc(50% - 20px); /* Adjust button width for landscape mode */
     height: 100px; /* Keep button height */
-    margin: 5px; /* Keep button margin */
+    margin: 1px; /* Keep button margin */
   }
 }
 
@@ -169,9 +169,9 @@ body, html {
   }
   
   .button {
-    font-size: 5px; /* Decrease button font size further */
+    font-size: 1px; /* Decrease button font size further */
     width: calc(50% - 20px); /* Adjust button width for landscape mode */
     height: 80px; /* Keep button height */
-    margin: 5px; /* Keep button margin */
+    margin: 1px; /* Keep button margin */
   }
 }
