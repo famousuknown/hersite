@@ -10,16 +10,15 @@
 }
 
 body, html {
-
-
+  overflow: scroll;
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
   background-color: #f5f5dc; /* Бежевый фон */
 }
 
 #container {
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
