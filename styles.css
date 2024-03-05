@@ -137,7 +137,7 @@ body, html {
   }
   
   .button {
-    font-size: 40px; /* Decrease button font size */
+    font-size: 30px; /* Decrease button font size */
     width: 100px; /* Decrease button width */
     height: 100px; /* Decrease button height */
     margin: 5px; /* Decrease button margin */
@@ -152,10 +152,10 @@ body, html {
   }
   
   .button {
-    font-size: 30px; /* Decrease button font size further */
+    font-size: 20px; /* Decrease button font size further */
     width: 80px; /* Decrease button width */
     height: 80px; /* Decrease button height */
-    margin: 5px; /* Decrease button margin */
+    margin: 4px; /* Decrease button margin */
   }
 }
 
@@ -167,9 +167,9 @@ body, html {
   }
   
   .button {
-    font-size: 20px; /* Decrease button font size further */
+    font-size: 10px; /* Decrease button font size further */
     width: 60px; /* Decrease button width */
     height: 60px; /* Decrease button height */
-    margin: 5px; /* Decrease button margin */
+    margin: 3px; /* Decrease button margin */
   }
 }
