@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Изменяем фон экрана в зависимости от нажатой кнопки
       switch (letter) {
-              case 'L':
+        case 'L':
           document.body.style.backgroundImage = "url('flag_russia.jpg')";
     break;
   case 'U':
@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Устанавливаем таймер для возвращения исходного фона через 1 секунду
       setTimeout(function() {
-        container.style.backgroundImage = 'none';
-      }, 1000);
+        document.body.style.backgroundImage = 'none';
+      }, 400);
     });
   });
 
