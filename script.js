@@ -29,29 +29,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Изменяем фон экрана в зависимости от нажатой кнопки
       switch (letter) {
-        case 'L':
-          container.style.backgroundImage = "url('flag_russia.jpg')";
-          break;
-        case 'U':
-          container.style.backgroundImage = "url('flag_singapore.webp')";
-          break;
-        case 'C':
-          container.style.backgroundImage = "url('flag_uk.jpg')";
-          break;
-        case 'I':
-          container.style.backgroundImage = "url('flag_france.jpg')";
-          break;
-        case 'N':
-          container.style.backgroundImage = "url('flag_japan.jpg')";
-          break;
-        case 'D':
-          container.style.backgroundImage = "url('flag_italy.jpg')";
-          break;
-        case 'E':
-          container.style.backgroundImage = "url('flag_ballet.jpg')";
-          break;
-        default:
-          container.style.backgroundImage = 'none';
+              case 'L':
+          document.body.style.backgroundImage = "url('flag_russia.jpg')";
+    break;
+  case 'U':
+    document.body.style.backgroundImage = "url('flag_singapore.webp')";
+    break;
+  case 'C':
+    document.body.style.backgroundImage = "url('flag_uk.jpg')";
+    break;
+  case 'I':
+    document.body.style.backgroundImage = "url('flag_france.jpg')";
+    break;
+  case 'N':
+    document.body.style.backgroundImage = "url('flag_japan.jpg')";
+    break;
+  case 'D':
+    document.body.style.backgroundImage = "url('flag_italy.jpg')";
+    break;
+  case 'E':
+    document.body.style.backgroundImage = "url('flag_ballet.jpg')";
+    break;
+  default:
+    document.body.style.backgroundImage = 'none';
       }
 
       // Устанавливаем таймер для возвращения исходного фона через 1 секунду
