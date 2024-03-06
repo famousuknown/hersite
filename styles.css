@@ -71,6 +71,7 @@ body, html {
   flex-direction: row; /* Устанавливаем горизонтальное расположение элементов */
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
 }
 
 .button {
